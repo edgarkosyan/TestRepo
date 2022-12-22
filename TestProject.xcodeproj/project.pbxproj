@@ -14,6 +14,7 @@
 		528CEE9129547EFA00BFCB7D /* TestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CEE9029547EFA00BFCB7D /* TestProjectTests.swift */; };
 		528CEE9B29547EFA00BFCB7D /* TestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CEE9A29547EFA00BFCB7D /* TestProjectUITests.swift */; };
 		528CEE9D29547EFA00BFCB7D /* TestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CEE9C29547EFA00BFCB7D /* TestProjectUITestsLaunchTests.swift */; };
+		528CEEAA29547F7D00BFCB7D /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CEEA929547F7C00BFCB7D /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		528CEE9629547EFA00BFCB7D /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528CEE9A29547EFA00BFCB7D /* TestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITests.swift; sourceTree = "<group>"; };
 		528CEE9C29547EFA00BFCB7D /* TestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		528CEEA929547F7C00BFCB7D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				528CEE7F29547EF800BFCB7D /* TestProjectApp.swift */,
 				528CEE8129547EF800BFCB7D /* ContentView.swift */,
+				528CEEA929547F7C00BFCB7D /* ContentViewModel.swift */,
 				528CEE8329547EF900BFCB7D /* Assets.xcassets */,
 				528CEE8529547EF900BFCB7D /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				528CEE8229547EF800BFCB7D /* ContentView.swift in Sources */,
 				528CEE8029547EF800BFCB7D /* TestProjectApp.swift in Sources */,
+				528CEEAA29547F7D00BFCB7D /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
